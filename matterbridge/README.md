@@ -12,7 +12,11 @@ When you build/rebuild the add-on, Matterbridge will reload all plugins that wer
 
 The Add-on can run on arm64, amd64 armv7 archs. The image is build on Debian 12 (bookworm-slim) with Nodejs 22.
 
-## How to install
+# Matterbridge Home Assistant plugin
+
+The ideal companion of the add-on is the [Official Matterbridge Home Assistant plugin](https://github.com/Luligu/matterbridge-hass/blob/main/README.md)
+
+## How to install the add-on
 
 Click here 
 
@@ -37,6 +41,8 @@ Enable **Start on boot**, **Watchdog** and **Auto update**.
 Click on **BUILD** or **REBUILD**.
 
 To open the Matterbridge frontend click on **OPEN WEB UI**.
+
+You may be asked to install the Home Assistant Matter Server: confirm the default installation.
 
 ## How to configure the mdns
 

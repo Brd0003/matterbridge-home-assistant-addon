@@ -6,6 +6,9 @@ If you like this project and find it useful, please consider giving it a star on
 
 # Changelog
 
+## 1.0.5 - 2024-12-05
+- Update README.md
+
 ## 1.0.4 - 2024-09-22
 - Refactor run.sh to keep the process running in the same container.
 - Fixed matterbridge routes for download (will be in matterbridge v. 1.5.9)
