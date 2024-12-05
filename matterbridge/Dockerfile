@@ -20,7 +20,7 @@ WORKDIR /app
 # RUN npm install -g /app/matterbridge
 
 # Globally install Matterbridge
-RUN npm install -g matterbridge
+RUN npm install -g matterbridge --omit=dev
 
 # Copy the run script to the container
 COPY run.sh /app/run.sh
