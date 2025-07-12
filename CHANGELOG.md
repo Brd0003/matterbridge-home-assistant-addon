@@ -6,6 +6,10 @@ If you like this project and find it useful, please consider giving it a star on
 
 # Changelog
 
+## 1.0.8 - 2025-07-12
+
+- Fixed matterbridge.svg.
+
 ## 1.0.7 - 2025-07-12
 
 - Added changelog.
