@@ -8,7 +8,6 @@ If you like this project and find it useful, please consider giving it a star on
 
 ## 1.0.7 - 2025-07-12
 
-- Added watchdog.
 - Added changelog.
 
 ## 1.0.6 - 2025-07-12
