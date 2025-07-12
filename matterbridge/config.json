@@ -12,7 +12,6 @@
     "ports": {
         "8283/tcp": 8283
     },
-    "watchdog": "http://127.0.0.1:8283/health",
     "panel_icon": "mdi:bridge",
     "panel_title": "Matterbridge",
     "map": [
