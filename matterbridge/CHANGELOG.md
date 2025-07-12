@@ -6,6 +6,9 @@ If you like this project and find it useful, please consider giving it a star on
 
 # Changelog
 
+## 1.0.6 - 2025-01-10
+- Added watchdog.
+
 ## 1.0.5 - 2024-12-05
 - Update README.md
 

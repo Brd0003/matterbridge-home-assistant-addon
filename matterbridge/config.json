@@ -1,6 +1,6 @@
 {
     "name": "Matterbridge Home Assistant Add-on",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "slug": "matterbridge",
     "hostname": "matterbridge",
     "description": "Official Matterbridge Home Assistant Add-on",
@@ -12,6 +12,7 @@
     "ports": {
         "8283/tcp": 8283
     },
+    "watchdog": "http://127.0.0.1:8283/health",
     "panel_icon": "mdi:bridge",
     "panel_title": "Matterbridge",
     "map": [
