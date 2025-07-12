@@ -1,0 +1,29 @@
+{
+    "name": "Matterbridge Home Assistant Add-on",
+    "version": "1.0.6",
+    "slug": "matterbridge",
+    "hostname": "matterbridge",
+    "description": "Official Matterbridge Home Assistant Add-on",
+    "url": "https://github.com/Luligu/matterbridge-home-assistant-addon",
+    "startup": "application",
+    "boot": "auto",
+    "ingress": true,
+    "ingress_port": 8283,
+    "ports": {
+        "8283/tcp": 8283
+    },
+    "watchdog": "http://127.0.0.1:8283/health",
+    "panel_icon": "mdi:bridge",
+    "panel_title": "Matterbridge",
+    "map": [
+        "addons:rw",
+        "share:rw"
+    ],
+    "arch": [
+        "amd64",
+        "aarch64",
+        "armv7"
+    ],
+    "host_network": true,
+    "restart": "always"
+}
