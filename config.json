@@ -1,10 +1,11 @@
 {
     "name": "Matterbridge Home Assistant Add-on",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "slug": "matterbridge",
     "hostname": "matterbridge",
     "description": "Official Matterbridge Home Assistant Add-on",
     "url": "https://github.com/Luligu/matterbridge-home-assistant-addon",
+    "watchdog": "http://[HOST]:8283/health",
     "startup": "application",
     "boot": "auto",
     "ingress": true,
