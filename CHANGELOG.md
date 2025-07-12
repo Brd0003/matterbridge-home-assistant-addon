@@ -8,7 +8,7 @@ If you like this project and find it useful, please consider giving it a star on
 
 ## 1.0.6 - 2025-07-12
 
-- Added watchdog.
+- Changed structure to monorepo.
 
 ## 1.0.5 - 2024-12-05
 
