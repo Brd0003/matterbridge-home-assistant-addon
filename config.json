@@ -5,7 +5,7 @@
     "hostname": "matterbridge",
     "description": "Official Matterbridge Home Assistant Add-on",
     "url": "https://github.com/Luligu/matterbridge-home-assistant-addon",
-    "watchdog": "http://[HOST]:8283/health",
+    "watchdog": "http://[HOST]:[PORT:8283]/health",
     "changelog": "https://github.com/Luligu/matterbridge-home-assistant-addon/blob/main/CHANGELOG.md",
     "startup": "application",
     "boot": "auto",
