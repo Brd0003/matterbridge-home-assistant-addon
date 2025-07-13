@@ -68,7 +68,21 @@ You may be asked to install the Home Assistant Matter Server: confirm the defaul
 
 When the supervisor gets updated, or the host machine (like a Home Assistant Green) makes a full reboot, the supervisor recreates the matterbridge container with the last built image. This can lead to having a very old version of matterbridge and plugins.
 
-To avoid this, update the addon and rebuild the container when you are prompted to.
+To avoid this, update the add-on and rebuild the container when you are prompted to.
+
+After updating the add-on or rebuilding it, in the log you will see messages like this:
+
+```
+[09:59:37.162] [PluginManager] Failed to parse package.json of plugin matterbridge-example-dynamic-platform: ENOENT: no such file or directory, open '/usr/local/lib/node_modules/matterbridge-example-dynamic-platform/package.json'
+```
+
+This is normal in this context and means that Matterbridge detected that in the new image the plugins are not present and will install them from npm:
+
+```
+[09:59:37.163] [Matterbridge] Error parsing plugin matterbridge-example-dynamic-platform. Trying to reinstall it from npm.
+[09:59:40.762] [Matterbridge] Package matterbridge-example-dynamic-platform   installed correctly
+[09:59:40.768] [Matterbridge] Plugin matterbridge-example-dynamic-platform reinstalled.
+```
 
 ## How to configure the mdns
 
