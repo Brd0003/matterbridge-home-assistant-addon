@@ -56,7 +56,7 @@ You should now see your Matterbridge add-on in the add-on store and be able to *
 
 Be patient cause it can takes a few minutes.
 
-Enable **Start on boot**, **Watchdog** and **Auto update**.
+Enable **Start on boot**, **Watchdog**, **Auto update** and **Show in sidebar**.
 
 Click on **BUILD** or **REBUILD**.
 
