@@ -6,7 +6,11 @@ If you like this project and find it useful, please consider giving it a star on
 
 # Changelog
 
-If you have problem updating the the add-on after installing the new Supervisor, I suggest to uninstall the add-on, remove the add-on and install it fresh.
+## Breaking changes
+
+If you have problems updating the add-on after installing the new Supervisor, I suggest you uninstall the add-on, remove the add-on and install it fresh.
+
+In the future, the add-on will be updated with each important new release of Matterbridge. This is to avoid that a full restart (like for a blackout) or a supervisor update downgrades the Matterbridge version with the latest built image of the add-on.
 
 ## 1.0.10 - 2025-07-12
 
