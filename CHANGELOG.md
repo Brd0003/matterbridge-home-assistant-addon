@@ -6,6 +6,8 @@ If you like this project and find it useful, please consider giving it a star on
 
 # Changelog
 
+If you have problem updating the the add-on after installing the new Supervisor, I suggest to uninstall the add-on, remove the add-on and install it fresh.
+
 ## 1.0.10 - 2025-07-12
 
 - Removed useless comments from Dockerfile.
