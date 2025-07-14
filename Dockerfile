@@ -4,15 +4,18 @@ FROM node:22-bookworm-slim
 # Set working directory
 WORKDIR /app
 
+# Cache bust: change this value to force a fresh install
+ARG CACHEBUST=20250714
+
+# Clean the cache to force the latest version of matterbridge and all the plugins
+RUN echo "Cache bust: $CACHEBUST" && npm cache clean -f
+
 # Globally install Matterbridge
 RUN npm install -g matterbridge --omit=dev
 
 # Copy the run script to the container
 COPY run.sh /app/run.sh
 RUN chmod +x /app/run.sh
-
-# Expose the frontend port (8283)
-EXPOSE 8283
 
 # Start the application using the run.sh script
 CMD [ "/app/run.sh" ]

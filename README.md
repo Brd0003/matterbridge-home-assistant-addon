@@ -20,7 +20,7 @@ If you like this project and find it useful, please consider giving it a star on
 
 This repository contains the Matterbridge Official Home Assistant Add-on.
 
-It allows you to run Matterbridge as an Home Assistant Add-on.
+It allows you to run Matterbridge as a Home Assistant Add-on.
 
 All Matterbridge features are correctly working in the official add-on (e.g. you can update Matterbridge itself or the plugins without issues).
 
@@ -28,9 +28,7 @@ The Matterbridge storage and the Matterbridge plugins storage persist when you u
 
 When you build/rebuild the add-on, Matterbridge will reload all plugins that were registered (it takes time so be patient).
 
-The Add-on can run on arm64, amd64 armv7 archs. The image is build on Debian 12 (bookworm-slim) with Nodejs 22.
-
-It is possible to enable the watchdog in the Add-on configuration page.
+The Add-on can run on arm64, amd64 armv7 archs. The image is built on Debian 12 (bookworm-slim) with Node.js 22.
 
 # Matterbridge Home Assistant plugin
 
@@ -54,15 +52,23 @@ then click on **ADD**.
 
 You should now see your Matterbridge add-on in the add-on store and be able to **INSTALL** it.
 
-Be patient cause it can takes a few minutes.
+Be patient because it can take a few minutes.
 
-Enable **Start on boot**, **Watchdog**, **Auto update** and **Show in sidebar**.
+Enable **Start on boot**, **Auto update** and **Show in sidebar**.
+
+The Watchdog is not used because Matterbridge always restarts with docker.
 
 Click on **BUILD** or **REBUILD**.
+
+The building process on a Home Assistant Green takes around 1 minute.
+
+Starting Matterbridge the first time after a rebuild takes time too because it will reload all plugins that were already registered.
 
 To open the Matterbridge frontend click on **OPEN WEB UI**.
 
 You may be asked to install the Home Assistant Matter Server: confirm the default installation.
+
+This add-on has no configuration.
 
 ## Supervisor behavior
 
@@ -83,6 +89,10 @@ This is normal in this context and means that Matterbridge detected that in the 
 [09:59:40.762] [Matterbridge] Package matterbridge-example-dynamic-platform   installed correctly
 [09:59:40.768] [Matterbridge] Plugin matterbridge-example-dynamic-platform reinstalled.
 ```
+
+If you were using a plugin installed from a tarball, you need to reinstall it manually.
+
+If you were using a dev version of plugin, you need to reinstall the dev version manually.
 
 ## How to configure the mdns
 

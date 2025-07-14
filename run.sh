@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# Set the frontend port from the config.json or default to 8283
-FRONTEND_PORT=${INGRESS_PORT:-8283}
-
 # Define the base directory for Matterbridge
 HOME_DIR=/addons/matterbridge
 
@@ -18,7 +15,7 @@ mkdir -p $MATTERBRIDGE_STORAGE
 # Start Matterbridge in a loop to handle restarts internally in the same container
 while true; do
     echo "Starting Matterbridge..."
-    matterbridge -docker -ingress -frontend $FRONTEND_PORT -homedir $HOME_DIR
+    matterbridge -docker -ingress -homedir $HOME_DIR
     echo "Matterbridge process exited. Restarting in 5 seconds..."
     sleep 5
 done

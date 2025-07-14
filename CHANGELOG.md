@@ -9,9 +9,17 @@ If you like this project and find it useful, please consider giving it a star on
 ## Breaking changes
 
 If you have problems updating the add-on after installing the new Supervisor, I suggest you uninstall the add-on, remove the add-on and install it fresh. No data will be lost.
-Remeber to enable **Start on boot**, **Watchdog**, **Auto update** and **Show in sidebar**..
+Remeber to enable **Start on boot**, **Auto update** and **Show in sidebar**.
 
 In the future, the add-on will be updated with each important new release of Matterbridge. This is to avoid that a full restart (like for a blackout) or a supervisor update downgrades the Matterbridge version with the latest built image of the add-on.
+
+## 2.0.0 - 2025-07-14
+
+- Removed configuration and unnecessary parameters in config.json.
+- Removed unnecessary parameters in run.sh.
+- Removed unnecessary parameters in Dockerfile.
+- Added CACHEBUST to Dockerfile to force a new build.
+- Updated the README.md
 
 ## 1.0.10 - 2025-07-12
 
