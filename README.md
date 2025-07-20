@@ -94,6 +94,13 @@ If you were using a plugin installed from a tarball, you need to reinstall it ma
 
 If you were using a dev version of plugin, you need to reinstall the dev version manually.
 
+## Home Assistant restart and reboot
+
+A simple restart of Home Assistant doesn't change the Matterbridge version.
+
+A full reboot (or a power outage) has the effect that the original add-on image is loaded with the Matterbridge version it was originally built with. So it can be an old version.
+In this case rebuild the add-on to get the latest verrsions of Matterbridge and plugins.
+
 ## How to configure the mdns
 
 Since Home Assistant exposes a lot of interfaces to the containers, is better to set the matter mdns interface in the Matterbridge Settings page.
