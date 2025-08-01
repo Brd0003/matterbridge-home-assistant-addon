@@ -13,6 +13,10 @@ Remeber to enable **Start on boot**, **Auto update** and **Show in sidebar**.
 
 In the future, the add-on will be updated with each important new release of Matterbridge. This is to avoid that a full restart (like for a blackout) or a supervisor update downgrades the Matterbridge version with the latest built image of the add-on.
 
+## 2.0.1 - 2025-08-01
+
+- Updated Matterbridge to 3.2.0. A new release of the add-on should force the Supervisor to rebuild all.
+
 ## 2.0.0 - 2025-07-14
 
 - Removed configuration and unnecessary parameters in config.json.
