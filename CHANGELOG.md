@@ -15,23 +15,24 @@ In the future, the add-on will be updated with each important new release of Mat
 
 ## 2.0.4 - 2025-09-03
 
-- Updated Matterbridge to [3.2.5](https://github.com/Luligu/matterbridge/blob/main/CHANGELOG.md) and matterbridge-hass to [0.4.0](https://github.com/Luligu/matterbridge-hass/blob/main/CHANGELOG.md).
+- Updated matterbridge to [3.2.5](https://github.com/Luligu/matterbridge/blob/main/CHANGELOG.md#325---2025-09-02).
+- Updated matterbridge-hass to [0.4.0](https://github.com/Luligu/matterbridge-hass/blob/main/CHANGELOG.md#040---2025-09-02).
 
-Please read the breaking changes in Hass plugin.
+**Please read the breaking changes in Hass plugin**.
 
-A new release of the add-on should force the Supervisor to rebuild all.
+A new release of the add-on should force the Supervisor to rebuild the container.
 
 ## 2.0.3 - 2025-08-29
 
-- Updated Matterbridge to 3.2.4 and matterbridge-hass to 0.3.0. A new release of the add-on should force the Supervisor to rebuild all.
+- Updated Matterbridge to 3.2.4 and matterbridge-hass to 0.3.0. A new release of the add-on should force the Supervisor to rebuild the container.
 
 ## 2.0.2 - 2025-08-20
 
-- Updated Matterbridge to 3.2.3. A new release of the add-on should force the Supervisor to rebuild all.
+- Updated Matterbridge to 3.2.3. A new release of the add-on should force the Supervisor to rebuild the container.
 
 ## 2.0.1 - 2025-08-01
 
-- Updated Matterbridge to 3.2.0. A new release of the add-on should force the Supervisor to rebuild all.
+- Updated Matterbridge to 3.2.0. A new release of the add-on should force the Supervisor to rebuild the container.
 
 ## 2.0.0 - 2025-07-14
 
