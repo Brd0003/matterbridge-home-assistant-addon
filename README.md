@@ -14,7 +14,7 @@
 
 ---
 
-If you like this project and find it useful, please consider giving it a star on GitHub at https://github.com/Luligu/matterbridge-home-assistant-addon and sponsoring it https://buymeacoffee.com/luligugithub.
+If you like this project and find it useful, please consider giving it a star on GitHub at https://github.com/Luligu/matterbridge-home-assistant-addon and sponsoring it at https://buymeacoffee.com/luligugithub.
 
 # Matterbridge Home Assistant Add-on
 
