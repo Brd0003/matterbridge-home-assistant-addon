@@ -13,6 +13,15 @@ Remeber to enable **Start on boot**, **Auto update** and **Show in sidebar**.
 
 In the future, the add-on will be updated with each important new release of Matterbridge. This is to avoid that a full restart (like for a blackout) or a supervisor update downgrades the Matterbridge version with the latest built image of the add-on.
 
+## 2.0.6 - 2025-10-16
+
+- Updated matterbridge to [3.3.2](https://github.com/Luligu/matterbridge/blob/main/CHANGELOG.md#332---2025-10-13).
+- Updated matterbridge to [3.3.1](https://github.com/Luligu/matterbridge/blob/main/CHANGELOG.md#331---2025-10-12).
+- Updated matterbridge to [3.3.0](https://github.com/Luligu/matterbridge/blob/main/CHANGELOG.md#330---2025-10-03).
+- Updated matterbridge-hass to [0.4.3](https://github.com/Luligu/matterbridge-hass/blob/main/CHANGELOG.md#043---2025-10-16).
+
+A new release of the add-on will force the Supervisor to rebuild the container.
+
 ## 2.0.5 - 2025-09-14
 
 - Updated matterbridge to [3.2.7](https://github.com/Luligu/matterbridge/blob/main/CHANGELOG.md#327---2025-09-14).
