@@ -79,16 +79,13 @@ To avoid this, update the add-on and rebuild the container when you are prompted
 After updating the add-on or rebuilding it, in the log you will see messages like this:
 
 ```
-[09:59:37.162] [PluginManager] Failed to parse package.json of plugin matterbridge-example-dynamic-platform: ENOENT: no such file or directory, open '/usr/local/lib/node_modules/matterbridge-example-dynamic-platform/package.json'
+[18:16:13.122] [Matterbridge] Error parsing plugin matterbridge-example-accessory-platform. Trying to reinstall it from npm...
+[18:16:16.167] [Matterbridge] Plugin matterbridge-example-accessory-platform reinstalled.
+[18:16:16.190] [Matterbridge] Error parsing plugin matterbridge-example-dynamic-platform. Trying to reinstall it from npm...
+[18:16:18.973] [Matterbridge] Plugin matterbridge-example-dynamic-platform reinstalled.
 ```
 
-This is normal in this context and means that Matterbridge detected that in the new image the plugins are not present and will install them from npm:
-
-```
-[09:59:37.163] [Matterbridge] Error parsing plugin matterbridge-example-dynamic-platform. Trying to reinstall it from npm.
-[09:59:40.762] [Matterbridge] Package matterbridge-example-dynamic-platform   installed correctly
-[09:59:40.768] [Matterbridge] Plugin matterbridge-example-dynamic-platform reinstalled.
-```
+This is normal in this context and means that Matterbridge detected that in the new image the plugins are not present and will install them from npm.
 
 If you were using a plugin installed from a tarball, you need to reinstall it manually.
 
