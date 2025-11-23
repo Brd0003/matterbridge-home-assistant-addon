@@ -28,7 +28,7 @@ The Matterbridge storage and the Matterbridge plugins storage persist when you u
 
 When you build/rebuild the add-on, Matterbridge will reload all plugins that were registered (it takes time so be patient).
 
-The Add-on can run on arm64, amd64 armv7 archs. The image is built on Debian 12 (bookworm-slim) with Node.js 22.
+The Add-on can run on arm64, amd64 archs (armv7 is [deprecated](https://www.home-assistant.io/blog/2025/05/22/deprecating-core-and-supervised-installation-methods-and-32-bit-systems) by Home Assistant). The image is built on Debian 12 (bookworm-slim) with Node.js 22.
 
 # Matterbridge Home Assistant plugin
 
@@ -95,7 +95,7 @@ If you were using a dev version of plugin, you need to reinstall the dev version
 
 A simple restart of Home Assistant doesn't change the Matterbridge version.
 
-A restart of the add-on will recreate the image with the Matterbridge version it was originally built with. So it can be an **old version**.
+A restart of the Add-on will recreate the image with the Matterbridge version it was originally built with. So it can be an **old version**.
 
 A full reboot (or a power outage) has the effect that the original add-on image is loaded with the Matterbridge version it was originally built with. So it can be an **old version**.
 
