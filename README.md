@@ -95,8 +95,11 @@ If you were using a dev version of plugin, you need to reinstall the dev version
 
 A simple restart of Home Assistant doesn't change the Matterbridge version.
 
-A full reboot (or a power outage) has the effect that the original add-on image is loaded with the Matterbridge version it was originally built with. So it can be an old version.
-In this case rebuild the add-on to get the latest verrsions of Matterbridge and plugins.
+A restart of the add-on will recreate the image with the Matterbridge version it was originally built with. So it can be an **old version**.
+
+A full reboot (or a power outage) has the effect that the original add-on image is loaded with the Matterbridge version it was originally built with. So it can be an **old version**.
+
+In this cases rebuild the add-on to get the latest versions of Matterbridge and plugins.
 
 ## How to configure the mdns
 
