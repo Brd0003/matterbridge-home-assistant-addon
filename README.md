@@ -30,6 +30,10 @@ When you build/rebuild the add-on, Matterbridge will reload all plugins that wer
 
 The Add-on can run on arm64, amd64 archs (armv7 is [deprecated](https://www.home-assistant.io/blog/2025/05/22/deprecating-core-and-supervised-installation-methods-and-32-bit-systems) by Home Assistant). The image is built on Debian 12 (bookworm-slim) with Node.js 22.
 
+# YouTube
+
+There is this nice video on https://www.youtube.com/watch?v=06zzl7o_IqQ.
+
 # Matterbridge Home Assistant plugin
 
 The ideal companion of the add-on is the [Official Matterbridge Home Assistant plugin](https://github.com/Luligu/matterbridge-hass/blob/main/README.md)

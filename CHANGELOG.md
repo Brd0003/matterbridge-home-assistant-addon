@@ -4,14 +4,23 @@ All notable changes to this project will be documented in this file.
 
 If you like this project and find it useful, please consider giving it a star on GitHub at https://github.com/Luligu/matterbridge-home-assistant-addon and sponsoring it at https://buymeacoffee.com/luligugithub.
 
-# Changelog
-
-## Breaking changes
-
 If you have problems updating the add-on after installing the new Supervisor, I suggest you uninstall the add-on, remove the add-on and install it fresh. No data will be lost.
 Remeber to enable **Start on boot**, **Auto update** and **Show in sidebar**.
 
 In the future, the add-on will be updated with each important new release of Matterbridge. This is to avoid that a full restart (like for a blackout) or a supervisor update downgrades the Matterbridge version with the latest built image of the add-on.
+
+# Changelog
+
+## Breaking changes
+
+- Removed support for armv7 architecture that is [deprecated by Home Assistant](https://www.home-assistant.io/blog/2025/05/22/deprecating-core-and-supervised-installation-methods-and-32-bit-systems).
+
+## 2.0.10 - 2025-11-27
+
+- Updated matterbridge to [3.4.0](https://github.com/Luligu/matterbridge/blob/main/CHANGELOG.md#340---2025-11-26).
+- There is this nice video on https://www.youtube.com/watch?v=06zzl7o_IqQ.
+
+A new release of the add-on will force the Supervisor to rebuild the container.
 
 ## 2.0.9 - 2025-11-17
 
