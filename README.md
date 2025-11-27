@@ -99,7 +99,7 @@ If you were using a dev version of plugin, you need to reinstall the dev version
 
 A simple restart of Home Assistant doesn't change the Matterbridge version.
 
-A restart of the Add-on will recreate the image with the Matterbridge version it was originally built with. So it can be an **old version**.
+A restart (more correctly a recreate) of the Add-on will recreate the image with the Matterbridge version it was originally built with. So it can be an **old version**.
 
 A full reboot (or a power outage) has the effect that the original add-on image is loaded with the Matterbridge version it was originally built with. So it can be an **old version**.
 
