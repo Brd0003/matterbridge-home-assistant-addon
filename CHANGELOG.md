@@ -15,6 +15,17 @@ In the future, the add-on will be updated with each important new release of Mat
 
 - Removed support for armv7 architecture that is [deprecated by Home Assistant](https://www.home-assistant.io/blog/2025/05/22/deprecating-core-and-supervised-installation-methods-and-32-bit-systems).
 
+## 2.0.12 - 2025-12-09
+
+- Updated matterbridge to [3.4.2](https://github.com/Luligu/matterbridge/blob/main/CHANGELOG.md#342---2025-12-05).
+- Updated matterbridge-hass to [1.0.0](https://github.com/Luligu/matterbridge-hass/blob/main/CHANGELOG.md#100---2025-12-05).
+
+If your system unit is FAHRENHEIT and you have any climate device, please install matterbidge-hass@dev from Install plugin.
+
+The current dev of the plugin fixes a configuration issue for climate in FAHRENHEIT.
+
+A new release of the add-on will force the Supervisor to rebuild the container.
+
 ## 2.0.11 - 2025-12-04
 
 - Updated matterbridge to [3.4.1](https://github.com/Luligu/matterbridge/blob/main/CHANGELOG.md#341---2025-12-01).
