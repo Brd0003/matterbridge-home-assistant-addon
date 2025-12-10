@@ -22,7 +22,7 @@ In the future, the add-on will be updated with each important new release of Mat
 
 If your system unit is FAHRENHEIT and you have any climate device, please install matterbidge-hass@dev from Install plugin.
 
-The current dev of the plugin fixes a configuration issue for climate in FAHRENHEIT.
+The current dev of the plugin fixes a configuration issue for climate in FAHRENHEIT and also a possible issue with REST api connection that has been removed.
 
 A new release of the add-on will force the Supervisor to rebuild the container.
 
